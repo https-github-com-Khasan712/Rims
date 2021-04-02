@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 110vh;
+  background-image: url(image/ac495c78196355e9a70aea0604aca0c5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header .opa-city {
+  background-color: rgba(65, 65, 65, 0.5);
+  width: 100%;
+  height: 110vh;
+}
+
+.header .home-page {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-bottom: 0.15vw solid #8d8c8c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .name-web {
+  width: 25%;
+  color: darkorange;
+}
+
+.header .name-web h1 {
+  padding-left: 1vw;
+  font-size: 2.3vw;
+  padding-top: 2vh;
+}
+
+.header .nav {
+  width: 50.7%;
+  margin: 0 auto;
+  border-right: 0.15vw solid #8d8c8c;
+}
+
+.header .nav-item {
+  margin: 0 auto;
+}
+
+.header .nav-item a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Della Respira", serif;
+  font-weight: bold;
+  padding: 4vh 0;
+}
+
+.header .nav-item a:hover {
+  color: darkorange;
+}
+
+.header .logos {
+  display: none;
+}
+
+.header .name-web-2 {
+  text-align: center;
+  color: #fff;
+}
+
+.header .name-web-2 .search {
+  width: 6vw;
+  height: 11vh;
+  float: left;
+}
+
+.header .name-web-2 .search i {
+  font-size: 2vw;
+  position: relative;
+  top: 3.6vh;
+}
+
+.header .name-web-2 .people {
+  width: 6vw;
+  height: 11vh;
+  float: left;
+}
+
+.header .name-web-2 .people i {
+  font-size: 2vw;
+  position: relative;
+  top: 3.6vh;
+}
+
+.header .name-web-2 .heart {
+  width: 6vw;
+  height: 11vh;
+  float: left;
+}
+
+.header .name-web-2 .heart i {
+  font-size: 2vw;
+  position: relative;
+  top: 3.6vh;
+}
+
+.header .name-web-2 .shopping {
+  width: 6vw;
+  height: 11vh;
+  background-color: darkorange;
+  float: right;
+}
+
+.header .name-web-2 .shopping i {
+  font-size: 2vw;
+  position: relative;
+  top: 3.6vh;
+}
+
+.header .chat {
+  width: 5vw;
+  height: 10vh;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  background-color: darkorange;
+  position: fixed;
+  top: 87vh;
+  left: 1vw;
+  -webkit-box-shadow: 0vh 0vh 0.5vw 0.2vw #fff;
+          box-shadow: 0vh 0vh 0.5vw 0.2vw #fff;
+  -webkit-animation-name: chat;
+          animation-name: chat;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  animation-direction: alternate-reverse;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes chat {
+  from {
+    -webkit-box-shadow: 0vh 0vh 0.5vw 0.1vw #fff;
+            box-shadow: 0vh 0vh 0.5vw 0.1vw #fff;
+  }
+  to {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+@keyframes chat {
+  from {
+    -webkit-box-shadow: 0vh 0vh 0.5vw 0.1vw #fff;
+            box-shadow: 0vh 0vh 0.5vw 0.1vw #fff;
+  }
+  to {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+.header .chat i {
+  font-size: 2vw;
+  position: relative;
+  top: 3vh;
+}
+
+.header .center-header {
+  position: relative;
+  top: 20vh;
+  color: #fff;
+  margin-left: 15vw;
+}
+
+.header .center-header h1 {
+  font-size: 4.5vw;
+  margin-bottom: 5vh;
+}
+
+.header .center-header p {
+  font-size: 1.5vw;
+  margin-bottom: 7vh;
+}
+
+.header .center-header .btn {
+  padding: 1.3vh 1.3vw;
+  outline: 0;
+  background-color: #b08e31;
+  color: #fff;
+  font-size: 1.5vw;
+  -webkit-box-shadow: 0 0 0.1vw 0.1vw white;
+          box-shadow: 0 0 0.1vw 0.1vw white;
+}
+
+.header .center-header .btn:hover {
+  padding: 1.3vh 1.3vw;
+  outline: 0;
+  background-color: #a88f48;
+  color: #fff;
+  font-size: 1.5vw;
+  -webkit-box-shadow: 0 0 0.1vw 0.1vw black;
+          box-shadow: 0 0 0.1vw 0.1vw black;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.header .card {
+  width: 25vw;
+  height: 30vh;
+  padding: 2vh 1vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 0.1vw solid #000;
+  position: fixed;
+  top: 65vh;
+  left: 7vw;
+  background-color: rgba(38, 38, 37, 0.5);
+  -webkit-backdrop-filter: blur(0.5vw);
+          backdrop-filter: blur(0.5vw);
+  text-align: center;
+}
+
+.header .card p {
+  color: #fff;
+}
+
+.header .card .btn_2 {
+  padding: 1vh 0;
+  color: #000;
+  background-color: #6259c2;
+}
+
+.header .card .btn_2:hover {
+  background-color: rgba(68, 53, 230, 0.5);
+}
+/*# sourceMappingURL=style.css.map */
